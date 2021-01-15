@@ -1,6 +1,6 @@
 
 NAME = harbor.canfar.net/skaha-desktop/session
-VERSION = 0.1
+VERSION = 0.2
 
 build: dependencies Dockerfile
 	docker build -t $(NAME):$(VERSION) -f Dockerfile .
